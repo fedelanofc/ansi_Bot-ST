@@ -24,8 +24,8 @@ global.blockList = []
 
 //---------[ NOMBRE/INFO ]---------
 global.pagina = "https://ansibot.netlify.app/"
-global.botname = "✨ 𝐚𝐧𝐬í-𝐁𝐎𝐓 ✨"
-global.wm = '✨ 𝐚𝐧𝐬í-𝐁𝐎𝐓 ✨'
+global.botname = "✨ 𝗮𝗻𝘀𝗶_𝗕𝗼𝘁-𝗦𝗧 ✨"
+global.wm = '✨ 𝗮𝗻𝘀𝗶_𝗕𝗼𝘁-𝗦𝗧 ✨'
 global.vs = '𝟮.𝟭'
 global.creador = '𝘧𝘦𝘥𝘦𝘭𝘢𝘯𝘠𝘛'
 global.creador2 = '𝘧𝘦𝘥𝘦𝘭𝘢𝘯𝘠𝘛'
@@ -104,7 +104,7 @@ global.APIs = {
 //---------[ STICKERS ]---------
 global.packname = ""
 global.author = `{
- "bot": "✨ 𝐚𝐧𝐬í-𝐁𝐎𝐓 ✨"
+ "bot": "✨ 𝗮𝗻𝘀𝗶_𝗕𝗼𝘁-𝗦𝗧 ✨"
   "autor": "𝘧𝘦𝘥𝘦𝘭𝘢𝘯𝘠𝘛",
   "version": "1.2",
   "creador": "𝘧𝘦𝘥𝘦𝘭𝘢𝘯𝘠𝘛"
