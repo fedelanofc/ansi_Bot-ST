@@ -332,7 +332,7 @@ let menuOwner = `꧁✦  *💻 ＭＥＮＵ ＯＷＮＥＲ 💻*  ✦꧂
 ╰━━━━━━━༺༻━━━━━━━
 
 ❖ ── ✦ ──『𝑪𝑨𝑵𝑨𝑳』── ✦ ── ❖
-https://whatsapp.com/channel/0029VadxAUkKLaHjPfS1vP36
+https://whatsapp.com/channel/0029Vb5oaHFCBtxIGWefdp0n
 ❖ ── ✦ ──『𝑾𝑨 𝑩𝑶𝑻』── ✦ ── ❖
 ﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏✎
  💻 ɪɴғᴏ ᴅᴇʟ ᴜsᴜᴀʀɪᴏ  💻
@@ -834,10 +834,10 @@ let menu = `╔━━━▣━━◤ 𝘼𝙉𝙎𝙄◢━━▣━━━╗
 conn.sendMessage(m.chat, { image: { url: menuimg }, caption: menu }, { quoted: fkontak, ephemeralExpiration: 24 * 60 * 1000, disappearingMessagesInChat: 24 * 60 * 1000 })};
 
 if (command == 'nuevo' || command == 'extreno') {
-conn.sendMessage(m.chat, { text: lenguaje.menu.text15(vs), contextInfo:{forwardedNewsletterMessageInfo: { newsletterJid: '120363296103096943@newsletter', serverMessageId: '', newsletterName: `${ucapan()} ${pushname}` }, mentions: [sender], forwardingScore: 9999999, isForwarded: true, "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "title": ` ${wm}`, "body": ` ${vs}`, "previewType": "PHOTO", thumbnail: imagen1, sourceUrl: `${pickRandom([nna, nn, md, yt])}`}}}, { quoted: fkontak, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})}
+conn.sendMessage(m.chat, { text: lenguaje.menu.text15(vs), contextInfo:{forwardedNewsletterMessageInfo: { newsletterJid: '120363400708262483@newsletter', serverMessageId: '', newsletterName: `${ucapan()} ${pushname}` }, mentions: [sender], forwardingScore: 9999999, isForwarded: true, "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "title": ` ${wm}`, "body": ` ${vs}`, "previewType": "PHOTO", thumbnail: imagen1, sourceUrl: `${pickRandom([nna, nn, md, yt])}`}}}, { quoted: fkontak, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})}
 
 if (command == 'reglas') {
-conn.sendMessage(m.chat, { text: lenguaje.menu.text16, contextInfo:{forwardedNewsletterMessageInfo: { newsletterJid: '120363296103096943@newsletter', serverMessageId: '', newsletterName: `${ucapan()} ${pushname}` }, mentions: [sender], forwardingScore: 9999999, isForwarded: true, "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "title": ` ${wm}`, "body": ` ${vs}`, "previewType": "PHOTO", thumbnail: imagen1, sourceUrl: `${pickRandom([nna, nn, md, yt])}`}}}, { quoted: fkontak, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})}}
+conn.sendMessage(m.chat, { text: lenguaje.menu.text16, contextInfo:{forwardedNewsletterMessageInfo: { newsletterJid: '120363400708262483@newsletter', serverMessageId: '', newsletterName: `${ucapan()} ${pushname}` }, mentions: [sender], forwardingScore: 9999999, isForwarded: true, "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "title": ` ${wm}`, "body": ` ${vs}`, "previewType": "PHOTO", thumbnail: imagen1, sourceUrl: `${pickRandom([nna, nn, md, yt])}`}}}, { quoted: fkontak, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})}}
 
 module.exports = { menu }
 
