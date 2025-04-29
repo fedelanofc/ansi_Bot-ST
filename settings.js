@@ -138,7 +138,7 @@ global.verificar = fs.readFileSync('./media/menu2.jpg')
 
 //---------[ ENLACES ]---------
 global.md = 'https://github.com/fedelnofc/ansi-Bot-ST.git'
-global.yt = 'https://www.youtube.com/@Eliasar_yt'
+global.yt = 'https://www.youtube.com/@fedelanYT'
 global.tiktok = 'https://www.tiktok.com/@eliasar_yt?_t=8mjJpoJfOBK&_r=1'
 global.fb = 'https://www.facebook.com/EliasarYT2'
 global.faceb = 'https://www.facebook.com/EliasarYT2'
