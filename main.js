@@ -305,17 +305,17 @@ const who = m.quoted ? m.quoted.sender : m.mentionedJid && m.mentionedJid[0] ? m
 const thumb = fs.readFileSync("./media/menu2.jpg")
 const fkontak = {
   "key": {
-    "participants": "50582340051@s.whatsapp.net",
+    "participants": "5491156178758@s.whatsapp.net",
     "remoteJid": "status@broadcast",
     "fromMe": false,
     "id": "Halo"
   },
   "message": {
     "contactMessage": {
-      "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:EliadarYT;;;\nFN:EliadarYT\nitem1.TEL;waid=50582340051:50582340051\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
+      "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:𝘧𝘦𝘥𝘦𝘭𝘢𝘯𝘠𝘛;;;\nFN:𝘧𝘦𝘥𝘦𝘭𝘢𝘯𝘠𝘛\nitem1.TEL;waid=5491156178758:5491156178758\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
     }
   },
-  "participant": "50582340051@s.whatsapp.net"
+  "participant": "5491156178758@s.whatsapp.net"
 };
 const ftroli = {
 key: {
@@ -364,12 +364,12 @@ const time = moment(Number(msg.messageTimestamp + "000")).locale("es-mx").tz("Am
 /*const reply = (text) => {  
 m.reply(text)}*/
 let canalId = [
-"120363296103096943@newsletter",
-"120363296103096943@newsletter"
+"120363400708262483@newsletter",
+"120363400708262483@newsletter"
 ];
 let canalNombre = [
-"✨ 𝐚𝐧𝐬í-𝐁𝐎𝐓 ✨",
-"✨ 𝐚𝐧𝐬í-𝐁𝐎𝐓 ✨"
+"✨ 𝙖𝙣𝙨𝙞_𝘽𝙤𝙩-𝙎𝙏 ✨",
+"✨ 𝙖𝙣𝙨𝙞_𝘽𝙤𝙩-𝙎𝙏 ✨"
 ];
 
 async function getRandomChannel() {
@@ -511,7 +511,7 @@ if (new Date() * 1 - setting.status > 1000) {
 let uptime = await runtime(process.uptime())
 var timestamp = speed();   
 var latensi = speed() - timestamp 
-let text = [`${lenguaje.Bio.text} ${Object.keys(global.db.data.users).length} ${lenguaje.Bio.text2} ${latensi.toFixed(4)} 🚀`, `${lenguaje.Bio.text3} ${runtime(process.uptime())}\n\n${lenguaje.Bio.text4}`, `${lenguaje.Bio.text5}`, `✨ 𝐚𝐧𝐬í-𝐁𝐎𝐓 ✨ uso: ${conn.public ? 'Publico' : 'Privado'} | ${lenguaje.Bio.text6} ${runtime(process.uptime())} | ${lenguaje.Bio.text7} ${Object.keys(global.db.data.users).length} crador Eliasar YT`]
+let text = [`${lenguaje.Bio.text} ${Object.keys(global.db.data.users).length} ${lenguaje.Bio.text2} ${latensi.toFixed(4)} 🚀`, `${lenguaje.Bio.text3} ${runtime(process.uptime())}\n\n${lenguaje.Bio.text4}`, `${lenguaje.Bio.text5}`, `✨ 𝙖𝙣𝙨𝙞_𝘽𝙤𝙩-𝙎𝙏 ✨ uso: ${conn.public ? 'Publico' : 'Privado'} | ${lenguaje.Bio.text6} ${runtime(process.uptime())} | ${lenguaje.Bio.text7} ${Object.keys(global.db.data.users).length} crador 𝘧𝘦𝘥𝘦𝘭𝘢𝘯𝘠𝘛`]
 let bio = text[Math.floor(Math.random() * text.length)]
 try {
 await conn.updateProfileStatus(bio)
