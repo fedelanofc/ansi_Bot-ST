@@ -13,10 +13,10 @@ const axios = require('axios')
 
 //---------[ PROPIETARIO/OWNER ]---------
 global.owner = [
-    ["50582340051", "Owner", true],
-    ["595984838201"],
-    ["51918534156"],
-    ["123456789"]
+    ["5491156178758", "Owner", true],
+    ["5491126852241"],
+    ["5491144229918"],
+    ["13124976342"]
 ]
 global.mods = []
 global.premium = []
@@ -27,8 +27,8 @@ global.pagina = "https://ansibot.netlify.app/"
 global.botname = "✨ 𝐚𝐧𝐬í-𝐁𝐎𝐓 ✨"
 global.wm = '✨ 𝐚𝐧𝐬í-𝐁𝐎𝐓 ✨'
 global.vs = '𝟮.𝟭'
-global.creador = '𝐸𝐿𝐼𝐴𝑆𝐴𝑅 𝑌𝑇'
-global.creador2 = 'ELIASAR YT'
+global.creador = '𝘧𝘦𝘥𝘦𝘭𝘢𝘯𝘠𝘛'
+global.creador2 = '𝘧𝘦𝘥𝘦𝘭𝘢𝘯𝘠𝘛'
 global.nunber = Math.floor(Math.random() * (27 - 18 + 1)) + 18;
 
 function pickRandom(array) {
@@ -38,7 +38,7 @@ function pickRandom(array) {
 
 
 //Función beta : escribe el número que quiere que sea bot para que mande el Código de 8 digitos
-global.botNumberCode = "" //Ejemplo: +59309090909
+global.botNumberCode = "" //Ejemplo: +54309090909
 global.phoneNumber = ""
 
 //---------[ FECHA/IDIOMAS ]---------
@@ -105,9 +105,9 @@ global.APIs = {
 global.packname = ""
 global.author = `{
  "bot": "✨ 𝐚𝐧𝐬í-𝐁𝐎𝐓 ✨"
-  "autor": "Eliasar YT",
+  "autor": "𝘧𝘦𝘥𝘦𝘭𝘢𝘯𝘠𝘛",
   "version": "1.2",
-  "creador": "Eliasar YT"
+  "creador": "𝘧𝘦𝘥𝘦𝘭𝘢𝘯𝘠𝘛"
 }
 `
 
@@ -137,7 +137,7 @@ global.noperfil = fs.readFileSync('./media/sinfoto.jpg')
 global.verificar = fs.readFileSync('./media/menu2.jpg')
 
 //---------[ ENLACES ]---------
-global.md = 'https://github.com/Eliasar54/ansi-BOT-MD.git'
+global.md = 'https://github.com/fedelnofc/ansi-Bot-ST.git'
 global.yt = 'https://www.youtube.com/@Eliasar_yt'
 global.tiktok = 'https://www.tiktok.com/@eliasar_yt?_t=8mjJpoJfOBK&_r=1'
 global.fb = 'https://www.facebook.com/EliasarYT2'
@@ -145,7 +145,7 @@ global.faceb = 'https://www.facebook.com/EliasarYT2'
 global.paypal = 'https://www.paypal.me/eliasarmoncada'
 
 global.host = 'https://chat.whatsapp.com/GI6EfsV1zIMHryC6m0yyX4';
-global.nna = 'https://whatsapp.com/channel/0029VadxAUkKLaHjPfS1vP36';
+global.nna = 'https://whatsapp.com/channel/0029Vb5oaHFCBtxIGWefdp0n';
 global.nn = 'https://chat.whatsapp.com/GI6EfsV1zIMHryC6m0yyX4'
 global.nn2 = 'https://chat.whatsapp.com/GI6EfsV1zIMHryC6m0yyX4'
 global.nn3 = 'https://chat.whatsapp.com/GI6EfsV1zIMHryC6m0yyX4'
@@ -155,8 +155,8 @@ global.nn6 = 'https://chat.whatsapp.com/GI6EfsV1zIMHryC6m0yyX4'
 global.nn7 = 'https://chat.whatsapp.com/GI6EfsV1zIMHryC6m0yyX4'
 global.nn8 = 'https://chat.whatsapp.com/GI6EfsV1zIMHryC6m0yyX4'
 global.multi = 'https://chat.whatsapp.com/GI6EfsV1zIMHryC6m0yyX4'
-global.nna2 = 'https://whatsapp.com/channel/0029VadxAUkKLaHjPfS1vP36'
-global.n2 = 'https://whatsapp.com/channel/0029VadxAUkKLaHjPfS1vP36'
+global.nna2 = 'https://whatsapp.com/channel/0029Vb5oaHFCBtxIGWefdp0n'
+global.n2 = 'https://whatsapp.com/channel/0029Vb5oaHFCBtxIGWefdp0n'
 //---------[ INFO ]--------- 
 global.info = {
     wait: '*_■■□□□40%_*',
