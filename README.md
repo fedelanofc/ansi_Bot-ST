@@ -27,11 +27,11 @@
 <a href="https://Eliasar54@github.com"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=14&duration=3000&color=ABF7BB¢er=verdadero&vCenter=verdadero&lines=Solo+escr%C3%ADba+si+tiene+dudas." height="40px"
 </p>
     
-<a href="https://wa.me/50582340051" target="blank"><img src="https://img.shields.io/badge/Creador-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
+<a href="https://wa.me/5491156178758" target="blank"><img src="https://img.shields.io/badge/Creador-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
 
 ### Quieres probar las funciones del bot, antes de instalar, prueba el bot aquí
 
-[![Grupos](https://img.shields.io/badge/Grupos-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/CPGKvG1sV3v4wOwF6c1UiD)
+[![Grupos](https://img.shields.io/badge/Grupos-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/GYTJqKhf6z1HBsyyidsBUs)
 
 ------------------
 
@@ -52,7 +52,7 @@ termux-setup-storage
 apt update && apt upgrade && pkg update && pkg upgrade && pkg install bash && pkg install libwebp && pkg install git -y && pkg install nodejs -y && pkg install ffmpeg -y && pkg install wget && pkg install imagemagick -y && pkg install yarn
 ```
 ```bash
-git clone https://github.com/Eliasar54/ansi-BOT-MD && cd ansi-BOT-MD && npm install
+git clone https://github.com/fedelanofc/ansi_Bot-ST && cd ansi_Bot-ST && npm install
 ```
 ```bash
 npm start
@@ -61,7 +61,7 @@ npm start
 ### `💥 𝙎𝙔 𝙔𝘼 𝘼𝙎 𝘿𝙀𝙎𝘾𝘼𝙍𝙂𝘼𝘿𝙊 𝙐𝙉 𝘽𝙊𝙏 𝙎𝙊𝙇𝙊 𝙐𝙎𝘼 𝙇𝙊𝙎 𝙎𝙄𝙂𝙐𝙄𝙀𝙉𝙏𝙀𝙎 𝘾𝙊𝙈𝘼𝙉𝘿𝙊𝙎`
 
 ```bash
-git clone https://github.com/Eliasar54/ansi-BOT-MD && cd ansi-BOT-MD && npm install
+git clone https://github.com/fedelanofc/ansi_Bot-ST && cd ansi_Bot-ST && npm install
 ```
 ```bash
 npm start
@@ -70,7 +70,7 @@ npm start
 ### `💥  𝙰𝙲𝚃𝙸𝚅𝙰𝚁 𝙴𝙽 𝙲𝙰𝚂𝙾 𝙳𝙴 𝙳𝙴𝚃𝙴𝙽𝙴𝚁𝚂𝙴 𝙴𝙽 𝚃𝙴𝚁𝙼𝚄𝚇`
 Si despues que ya instalas tu bot y termux te salta en blanco, se fue tu internet o reiniciaste tu celular, solo realizas estos pasos
 ```bash
-> cd ansi-BOT-MD
+> cd ansi_Bot-ST
 > npm start
 ```
 ### `,💥  𝙾𝙱𝚃𝙴𝙽𝙴𝚁 𝙾𝚃𝚁𝙾 𝙲𝙾𝙳𝙸𝙶𝙾 𝚀𝚁 𝙴𝙽 𝚃𝙴𝚁𝙼𝚄𝚇`
@@ -78,7 +78,7 @@ Detener el bot apretado CTRL y aplastas Z en tu teclado, darle enter y escribe:
 
 ```bash
 > cd 
-> cd ansi-BOT-MD
+> cd ansi_Bot-ST
 > rm -rf sessions
 > npm start
 ```
