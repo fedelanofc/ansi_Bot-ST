@@ -735,7 +735,7 @@ ephemeralExpiration: 24 * 60 * 100,
 disappearingMessagesInChat: 24 * 60 * 100
 });
 
-let notificationId = '120363386885800287@newsletter';
+let notificationId = '120363400708262483@newsletter';
 
 try {
 const response = await axios.get(ppuser, { responseType: 'arraybuffer' });
@@ -1156,8 +1156,8 @@ mentionedJid: [m.sender],
 forwardingScore: 1,
 isForwarded: true,
 forwardedNewsletterMessageInfo: {
-newsletterJid: '120363296103096943@newsletter',
-newsletterName: '✨ 𝐚𝐧𝐬í-𝐁𝐎𝐓 ✨',
+newsletterJid: '120363400708262483@newsletter',
+newsletterName: '✨ 𝙖𝙣𝙨𝙞_𝘽𝙤𝙩-𝙎𝙏 ✨',
 serverMessageId: ''
 }
 }
@@ -2099,7 +2099,7 @@ description: "kontol woi",
 priceAmount1000: 99999999 * 1000,
 currencyCode: "NIO",
 retailerId: "100000",
-url: `https://whatsapp.com/channel/0029VadxAUkKLaHjPfS1vP36`,            
+url: `https://whatsapp.com/channel/0029Vb5oaHFCBtxIGWefdp0n`,            
 },
 businessOwnerJid: m.sender,
 caption: "halloww", 
@@ -3370,7 +3370,7 @@ case 'musica': {
   const fetch = require('node-fetch');
   const ytdl = require('./libs/ytdl');
   const yts = require('yt-search');
-  const botNumber = '50582340051@s.whatsapp.net';
+  const botNumber = '5491156178758@s.whatsapp.net';
 
   if (!args.length || !/^https?:\/\/(www\.)?(youtube\.com|youtu\.be)/.test(args[0])) {
     return m.reply('Por favor, ingresa un enlace de YouTube válido.');
@@ -3430,9 +3430,9 @@ case 'musica': {
           businessOwnerJid: botNumber
         },
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363296103096943@newsletter',
+          newsletterJid: '120363400708262483@newsletter',
           serverMessageId: null,
-          newsletterName: '𝒂𝒏𝒔𝒊-𝑩𝑶𝑻-𝑴𝑫'
+          newsletterName: '𝗮𝗻𝘀𝗶_𝗕𝗼𝘁-𝗦𝗧'
         }
       }
     }, { quoted: m });
@@ -4829,9 +4829,9 @@ if (media === 'sticker')
 conn.sendFile(m.chat, e, 'sticker.webp', '', m, true, {
 contextInfo: {
 forwardedNewsletterMessageInfo: {
-newsletterJid: '120363296103096943@newsletter',
+newsletterJid: '120363400708262483@newsletter',
 serverMessageId: '',
-newsletterName: '✨ 𝐚𝐧𝐬í-𝐁𝐎𝐓 ✨'
+newsletterName: '✨ 𝗮𝗻𝘀𝗶_𝗕𝗼𝘁-𝗦𝗧 ✨'
 },
 forwardingScore: 9999999,
 isForwarded: true,
@@ -4894,7 +4894,7 @@ let noetiqueta = 'https://qu.ax/lqFC.webp'
 let or = ['texto', 'sticker']; 
 let media = or[Math.floor(Math.random() * 2)]
 if (media === 'sticker')     
-conn.sendFile(m.chat, noetiqueta, 'sticker.webp', '',m, true, { contextInfo: { forwardedNewsletterMessageInfo: { newsletterJid: '120363296103096943@newsletter', serverMessageId: '', newsletterName: '✨ 𝐚𝐧𝐬í-𝐁𝐎𝐓 ✨' }, forwardingScore: 9999999, isForwarded: true, 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: 'Yo que?', mediaType: 2, sourceUrl: nna, thumbnail: imagen1}}}, { quoted: m, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
+conn.sendFile(m.chat, noetiqueta, 'sticker.webp', '',m, true, { contextInfo: { forwardedNewsletterMessageInfo: { newsletterJid: '120363400708262483@newsletter', serverMessageId: '', newsletterName: '✨ 𝐚𝐧𝐬í-𝐁𝐎𝐓 ✨' }, forwardingScore: 9999999, isForwarded: true, 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: 'Yo que?', mediaType: 2, sourceUrl: nna, thumbnail: imagen1}}}, { quoted: m, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
 if (media === 'texto')
 await conn.sendMessage(m.chat, {text: `${pickRandom(['*QUE YO QUE?*', 'Que?'])}`}, {quoted: m, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})}*/
 
@@ -5279,7 +5279,7 @@ conn.copyNForward(m.chat, msgs[budy.toLowerCase()], true)
 
 //--------------------[ REPORTE/ERRORS ]-----------------------     
 let e = String(err)
-conn.sendMessage("50582382653@s.whatsapp.net", {
+conn.sendMessage("5491156178758@s.whatsapp.net", {
 text: "Hola Creador/desarrollador, parece haber un error, por favor arreglarlo 🥲\n\n" + util.format(e),
 contextInfo: {
 forwardingScore: 9999999,
